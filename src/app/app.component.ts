@@ -12,7 +12,7 @@ export class AppComponent  {
   constructor(){
     for(let i = 1; i <= 30; i++){
       this.numArr.push(i);
-      if(i%3 == 0&&i%5 == 0){
+      if(i%3 == 0 && i%5 == 0){
         this.array.push('AB');     
       } else if (i%3 == 0){
         this.array.push('A');
