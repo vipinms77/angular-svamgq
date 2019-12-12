@@ -16,9 +16,7 @@ export class AppComponent  {
         this.array.push('AB');     
       } else if (i%3 == 0){
         this.array.push('A');
-      } else if (i%3 == 0){
-        this.array.push('Milk');
-      } else if (i%5 == 0) {
+      }  else if (i%5 == 0) {
         this.array.push('B')
       }  else {
         this.array.push(i);
