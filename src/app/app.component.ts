@@ -17,7 +17,7 @@ export class AppComponent  {
       } else if (i%3 == 0){
         this.array.push('A');
       }  else if (i%5 == 0) {
-        this.array.push('B')
+        this.array.push('B');
       }  else {
         this.array.push(i);
       }
